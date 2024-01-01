@@ -14,11 +14,11 @@ public class Chatbot {
             String userInput = scanner.nextLine();
 
             if (userInput.equalsIgnoreCase("bye")) {
-                System.out.println("SimpleChatbot: Goodbye! Have a great day!");
+                System.out.println("Chatbot: Goodbye! Have a great day!");
                 break;
             } else {
                 String response = generateResponse(userInput);
-                System.out.println("SimpleChatbot: " + response);
+                System.out.println("Chatbot: " + response);
             }
         }
 
